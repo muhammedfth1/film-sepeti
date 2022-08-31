@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-    <title>New Design</title>
+    <title>Film Sepeti</title>
     <style>
         @import url("css/all.css");
     </style>
@@ -58,26 +58,137 @@
           <h2 class="s-heading text-uppercase">Filmler</h2>
           <h3 class="s-subheading text-muted">Vizyona yeni giren filmler ve daha fazlası...</h3>
         </div>
-        <div class="row">
+        <div class="row gy-4">
           <div class="col-sm-6 col-lg-4">
             <div class="p-item">
-              <a href="#" class="p-link" data-bs-toggle="modal">
+              <a href="#PModal1" class="p-link" data-bs-toggle="modal">
                 <div class="p-hover">
                   <div class="ph-content text-white">
                     <i class="bi bi-play-circle"></i>
                   </div>
                 </div>
-                <img src="img\films\fightclub.jpg" class="img-fluid" alt="">
+                <img src="img\films\soncıkmaz.jpg" class="img-fluid" alt="">
               </a>
-              <div class="p-caption text-center bg-white">
-                <div class="pc-heading">Fight Club</div>
-                <div class="pc-subheading text-muted">1999</div>
+              <div class="p-caption text-center bg-white p-2">
+                <div class="pc-heading fw-bold ">Son Çıkmaz</div>
+                <div class="pc-subheading text-muted fst-italic mb-3">2022</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal2" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-play-circle"></i>
+                  </div>
+                </div>
+                <img src="img\films\perilerulkesi.jpg" class="img-fluid" alt="">
+              </a>
+              <div class="p-caption text-center bg-white p-2">
+                <div class="pc-heading fw-bold ">Periler Ülkesi</div>
+                <div class="pc-subheading text-muted fst-italic mb-3">2019</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal3" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-play-circle"></i>
+                  </div>
+                </div>
+                <img src="img\films\afterhappys.jpg" class="img-fluid" alt="">
+              </a>
+              <div class="p-caption text-center bg-white p-2">
+                <div class="pc-heading fw-bold ">After: Mutluluk</div>
+                <div class="pc-subheading text-muted fst-italic mb-3">2022</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal4" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-play-circle"></i>
+                  </div>
+                </div>
+                <img src="img\films\alemicin.jpg" class="img-fluid" alt="">
+              </a>
+              <div class="p-caption text-center bg-white p-2">
+                <div class="pc-heading fw-bold ">Alem-i Cin</div>
+                <div class="pc-subheading text-muted fst-italic mb-3">2018</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal5" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-play-circle"></i>
+                  </div>
+                </div>
+                <img src="img\films\suikasttreni.jpg" class="img-fluid" alt="">
+              </a>
+              <div class="p-caption text-center bg-white p-2">
+                <div class="pc-heading fw-bold ">Suikast Treni</div>
+                <div class="pc-subheading text-muted fst-italic ">2022</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#PModal6" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-play-circle"></i>
+                  </div>
+                </div>
+                <img src="img\films\dayı.jpg" class="img-fluid" alt="">
+              </a>
+              <div class="p-caption text-center bg-white p-2">
+                <div class="pc-heading fw-bold ">Dayı: Bir Adamın Hikayesi</div>
+                <div class="pc-subheading text-muted fst-italic mb-3">2021</div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </section>
+    <div class="modal fade p-modal" id="PModal1" tabindex="-1" role="dialog" aria-labelledby="myTitle1" aria-hidden="true">
+      <div class="modal-dialog ">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="img\close-icon.svg" alt="">
+          </div>
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="view">
+                  <h2  id="myTitle1" class="fw-bold mb-3">Son Çıkmaz</h2>
+                  <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-4by3">
+        <video class="video-fluid autoplay loop muted" controls>
+          <source src="video\soncıkmaz.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+                  <p class="my-4">Son Çıkmaz, peşine düşen adamlardan kurtulmaya ve kızını korumaya çalışan eski bir polis şefinin hikayesini konu ediyor. Bir uyuşturucu kralı, ailesine karşı tanıklık etmeden önce onu susturmak için küçük bir kasabanın eski bir polis şefi olan Frank’in peşine düşer. Kendisini bir anda avcıların peşine düştüğü bir av olarak bulan Frank, pazarlık ettiğinde daha fazlasıyla karşılaşır. Suç lideri, Frank’i kızına zarar vermekle tehdit eder. Frank, kızının hayatını kurtarmak için zorlu bir mücadeleye girişir.</p>
+                  <ul class="list-inline mb-4">
+                    <li><strong>Yönetmen: </strong>Mike Burns</li>
+                    <li><strong>Oyuncular: </strong>Bruce Willis, Ashley Greene Khoury, Texas Battle</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="js/custom/extra.js"></script>
 </body>
