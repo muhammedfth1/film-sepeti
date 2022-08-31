@@ -15,7 +15,7 @@
 
 <body id="page-body">
     <!-- navigation start-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top img-gradient" id="mainNavbar">
         <div class="container">
             <a href="#page-body" class="navbar-brand text-uppercase" title="new design website link">Film Sepeti</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
@@ -30,11 +30,12 @@
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav ms-auto text-uppercase py-lg-2">
-                        <li class="nav-item"><a href="#services" class="nav-link">Servisler</a></li>
-                        <li class="nav-item"><a href="#portfolio" class="nav-link">Portföy</a></li>
-                        <li class="nav-item"><a href="#about" class="nav-link">Hakkımızda</a></li>
-                        <li class="nav-item"><a href="#team" class="nav-link">Ekip</a></li>
-                        <li class="nav-item"><a href="#contact" class="nav-link">İletişim</a></li>
+                        <li class="nav-item"><a href="#films" class="nav-link btn-close-canvas">Film izle</a></li>
+                        <li class="nav-item"><a href="#series" class="nav-link btn-close-canvas">Dizi izle</a></li>
+                        <li class="nav-item"><a href="#team" class="nav-link btn-close-canvas">Hakkımızda</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link btn-close-canvas">İletişim</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="nav-link btn-close-canvas">Kayıt Ol</a></li>
+                        <li class="nav-item"><a href="" class="nav-link btn-close-canvas">Giriş Yap</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,12 +46,38 @@
     <!--header start-->
     <header class="backImage text-white text-center">
         <div class="container">
-            <div class="backImage-sub mb-4">Stüdyomuza Hoş Geldin!</div>
-            <div class="backImage-heading text-uppercase">Tanıştığımıza Memnun Olduk</div>
-            <a href="#services" class="btn btn-danger btn-lg p-lg-4 text-uppercase fw-bolder">Daha Fazla Anlat</a>
+            <div class="backImage-sub mb-4">Film Marketine Hoş Geldin!</div>
+            <div class="backImage-heading text-uppercase">İzlemeye doyamayacaksın</div>
+            <a href="#services" class="btn btn-danger btn-lg p-lg-4 text-uppercase fw-bolder">Hemen izlemeye Başla</a>
         </div>
     </header>
     <!--header end-->
+    <section id="films" class="mySection bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="s-heading text-uppercase">Filmler</h2>
+          <h3 class="s-subheading text-muted">Vizyona yeni giren filmler ve daha fazlası...</h3>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <div class="p-item">
+              <a href="#" class="p-link" data-bs-toggle="modal">
+                <div class="p-hover">
+                  <div class="ph-content text-white">
+                    <i class="bi bi-play-circle"></i>
+                  </div>
+                </div>
+                <img src="img\films\fightclub.jpg" class="img-fluid" alt="">
+              </a>
+              <div class="p-caption text-center bg-white">
+                <div class="pc-heading">Fight Club</div>
+                <div class="pc-subheading text-muted">1999</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="js/custom/extra.js"></script>
 </body>
